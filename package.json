@@ -1,0 +1,26 @@
+{
+  "name": "TradeListener",
+  "version": "0.0.0",
+  "description": "Connects with cryptocurrency markets and collects live trade data.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CryptoMarketMonitor/TradeListener.git"
+  },
+  "author": "Daniel Streit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CryptoMarketMonitor/TradeListener/issues"
+  },
+  "homepage": "https://github.com/CryptoMarketMonitor/TradeListener",
+  "dependencies": {
+    "mongoose": "^3.8.16",
+    "pusher-client": "^0.2.2",
+    "request": "^2.42.0",
+    "socket.io": "^1.1.0",
+    "socket.io-client": "^1.1.0"
+  }
+}
